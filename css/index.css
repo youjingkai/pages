@@ -1,0 +1,124 @@
+.search-area{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
+h1,h2,h3{
+    font-size: 40px !important;
+    font-weight: bold !important;
+}
+.boxcontainer{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url('../image/背景图.jpg');
+    font-family:"楷体","楷体_GB2312";
+    overflow-y: auto;
+    font-size: 24px;
+}
+.input-group{
+    width: 100%;
+    margin: 0 10px;
+}
+.article{
+    text-align: center;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.item img{
+    width: 45%;
+}
+.suitable{
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    /* height: 200px; */
+    border: 5px solid #000;
+}
+.suitable img{
+    position: absolute;
+    width: 60px;
+    bottom: 0px;
+    right: 0px;
+}
+.suitable1{
+    text-align: center;
+    position: relative;
+    background-color: #fffdf1;
+    /* height: 100px; */
+    border: 5px solid #680101;
+}
+.suitable1 img{
+    position: absolute;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+}
+.mapimg{
+    width: 100%;
+}
+.suitable .toptealogo{
+    top: 0px;
+    right: 0px;
+}
+.introduce-tea{
+    width: 100%;
+    background-color: #d5d6c6;
+    padding: 20px;
+    margin: 20px 0;
+}
+.introduce-tea .title{
+    color: red;
+}
+.origin-tea{
+    padding: 20px;
+    text-align: center;
+}
+.origin-tea .title{
+    background-color: #d5d6c6;
+    color: red;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.origin-tea .title1{
+    color: red;
+}
+.origin-tea p{
+    text-align: left;
+}
+.round-tea{
+    width: 100%;
+    background-image: url('../image/茶叶圆标.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.round-tea .right{
+    text-align: right;
+}
+.round-tea .left{
+    text-align: left;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #bbbbbb;
+    padding: 10px;
+}

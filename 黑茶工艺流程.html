@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+          crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+    <title>黑茶-工艺流程</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.js"> </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js.map"> </script>
+</head>
+<style>
+    body{
+        /*max-width: 720px;*/
+        /*height: 1280px;*/
+
+
+    }
+    .boxcontainer{
+        background: url('image/index/背景图.jpg');
+        max-width: 720px;
+        /*height: 1280px;*/
+        margin-left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .footer{
+        max-width: 720px;
+    }
+    .swiper{
+        height: 420px;
+        width: 100%;
+    }
+    .imglun{
+        width: 100%;
+        height: 100%;
+    }
+    .mig{
+        width: 10%;
+        margin-left: 16px;
+    }
+    .item1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+    .main01{
+        width: 100%;
+    }
+    .bor{
+        width: 50%;
+        padding: 8px;
+        border: 2px solid rgb(20,62,1);
+        height: 200px;
+    }
+    h1{
+        margin: 0;
+        font-size: 22px;
+    }
+    p{
+        font-size:20px
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #000;
+    }
+</style>
+<body>
+<div class="boxcontainer">
+    <div class="search-area">
+        <img src="./image/logo.jpg" style="width:60px" alt="">
+        <div class="input-group">
+            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+            <div class="input-group-addon">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+        </div>
+        <!-- Single button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                分类 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="红茶1.html">红茶</a></li>
+                <li><a href="黄茶1.html">黄茶</a></li>
+                <li><a href="黑茶.html">黑茶</a></li>
+                <li><a href="./4.html">白茶</a></li>
+                <li><a href="绿茶1.html">绿茶</a></li>
+                <li><a href="乌龙茶.html">乌龙茶</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div  class="swiper-slide"><img class="imglun"  src="image/heicha/工艺流程/轮播图/2.jpg" alt=""></div>
+            <div  class="swiper-slide"><img class="imglun"  src="image/heicha/工艺流程/轮播图/3.jpg" alt=""></div>
+            <div  class="swiper-slide"><img class="imglun"  src="image/heicha/工艺流程/轮播图/1.jpg" alt=""></div>
+            <div  class="swiper-slide"><img class="imglun"  src="image/heicha/工艺流程/轮播图/4.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div style="bottom: -3px;" class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+                            <div class="swiper-button-prev" style="color: #fff"></div>
+                            <div class="swiper-button-next" style="color: #fff"></div>
+
+        <!-- 如果需要滚动条 -->
+        <!--                    <div class="swiper-scrollbar"></div>-->
+    </div>
+    <div class="item1">
+        <img class="mig" src="image/heicha/工艺流程/轮播图控件1.png" alt="">
+        <img class="mig" src="image/heicha/工艺流程/轮播图控件2.png" alt="">
+        <img class="mig" src="image/heicha/工艺流程/轮播图控件2.png" alt="">
+        <img class="mig" src="image/heicha/工艺流程/轮播图控件2.png" alt="">
+        <img class="mig" src="image/heicha/工艺流程/轮播图控件2.png" alt="">
+
+    </div>
+    <div class="main01">
+        <div style="width: 100%;display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div class="bor">
+                <h1>杀青</h1>
+                <p>杀青是指把鲜叶投入适温锅中或杀青机中使茶叶变软，便于揉捻成形，同时散除鲜叶青味，促进良好香气的形成。</p>
+            </div>
+            <div class="bor" >
+                <img style="width: 100%;height: 100%;" src="image/heicha/工艺流程/杀青.jpg" alt="">
+            </div>
+        </div>
+        <div style="width: 100%;display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div class="bor">
+                <h1>揉捻</h1>
+                <p>揉捻可分为初揉和复揉。 初揉：通常，选用制作黑茶的原料较为粗老。 复揉：复揉这道工序是在渥堆后进行的</p>
+            </div>
+            <div class="bor" >
+                <img style="width: 100%;height: 100%;" src="image/heicha/工艺流程/揉捻.jpg" alt="">
+            </div>
+        </div>
+        <div style="width: 100%;display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div class="bor">
+                <h1>渥堆</h1>
+                <p>渥堆是形成黑茶色香味的关键性工序。黑茶渥堆应有适宜的条件.渥堆过程中通常要进行翻堆，以使渥堆均匀。其中，普洱生茶的加工不经渥堆处理</p>
+            </div>
+            <div class="bor" >
+                <img style="width: 100%;height: 100%;" src="image/heicha/工艺流程/渥堆.jpg" alt="">
+            </div>
+        </div>
+        <div style="width: 100%;display: flex;
+        justify-content: center;
+        align-items: center;">
+            <div class="bor">
+                <h1>干燥</h1>
+                <p>黑茶干燥分为自然晾置和烘焙 自然晾置：此种干燥方法较为传统。茶叶踩压成包压制成形后，置于阴凉通风之处晾干。 人工烘焙：是指由人工设置的</p>
+            </div>
+            <div class="bor" >
+                <img style="width: 100%;height: 100%;" src="image/heicha/工艺流程/干燥.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer">
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="index.html">首页</a></button>
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="./3.html">茶文化</a></button>
+
+        <div style="border: 2px solid #000; background-color:#d5d6c4 !important;padding: 10px;" class="dropup">
+            <button style="font-size: 16px" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                品茶
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="三品.html">三品</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="三看.html">三看</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="三闻.html">三闻</a></li>
+                <li role="separator" class="divider"></li>
+
+            </ul>
+        </div>
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="javascript:history.back(-1)">返回</a></button>
+    </div>
+</div>
+</body>
+<script>
+    var mySwiper = new Swiper ('.swiper', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        autoplay : true, //自动切换
+        autoplay : {
+            delay : 1600, //自动切换的时间间隔，单位ms
+            disableOnInteraction : false //用户操作swiper之后，是否禁止autoplay
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    })
+</script>
+</html>

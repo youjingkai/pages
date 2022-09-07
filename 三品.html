@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+          crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+    <title>三品</title>
+
+</head>
+<style>
+    body{
+        /*max-width: 720px;*/
+        /*height: 1280px;*/
+
+
+    }
+    .boxcontainer{
+        background: url('image/index/背景图.jpg');
+        max-width: 720px;
+        /*height: 1280px;*/
+        margin-left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .footer {
+        max-width: 720px;
+    }
+    .item1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*padding: 10px;*/
+        /*text-align: center;*/
+        height: 300px;
+
+    }
+    h1{
+        margin: 0;
+        font-size: 22px;
+    }
+    p{
+        font-size:20px
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .backimg>p{
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .topback>img{
+        width: 20%;
+        position: absolute;
+    }
+
+    .shulie{
+        /*margin: 0 auto;*/
+        margin-right: 6%;
+        width: 20px;
+        line-height: 24px;
+        /*position: absolute;*/
+        /*z-index: 4;*/
+        /*top: 100px;*/
+        /*left: 52%;*/
+        font-size: 1vw;
+    }
+    .shuright{
+        width: 3vw;
+        border-left: 2px solid rgb(96,113,145);
+        font-size: 1vw;
+    }
+    .shuright2{
+        width: 3vw;
+        margin-right: 10px;
+        border-right: 2px solid rgb(96,113,145);
+        font-size: 1vw;
+        text-align: right;
+    }
+    .maxboxtop{
+        width: 90%;height: 50%;color: rgb(96,113,145);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .maxboxtop2{
+        width: 100%;height: 50%;color: rgb(96,113,145);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="boxcontainer">
+    <div class="search-area">
+        <img src="./image/logo.jpg" style="width:60px" alt="">
+        <div class="input-group">
+            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+            <div class="input-group-addon">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+        </div>
+        <!-- Single button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                分类 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="红茶1.html">红茶</a></li>
+                <li><a href="黄茶1.html">黄茶</a></li>
+                <li><a href="黑茶.html">黑茶</a></li>
+                <li><a href="./4.html">白茶</a></li>
+                <li><a href="绿茶1.html">绿茶</a></li>
+                <li><a href="乌龙茶.html">乌龙茶</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div style="color: rgb(96,113,145); width: 100%;text-align: center;font-size: 30px">—— —``` 三品 ```— ——</div>
+    <br><br>
+    <div class="item1">
+
+        <div style="width: 36%;height: 100%;">
+            <div class="maxboxtop">
+                <div class="shulie">一品火工</div>
+                <div class="shuright">一杯好茶</div>
+            </div>
+            <div style="padding: 3px; width:90%;height: 50%;font-size: 1vw;color: #dedede;background-color: rgb(152,158,169)">
+
+                <span style="color: #de2d0e;font-size: 1.5vw">品火工：</span>品尝加工过程中的火候是老火、是大还是生青，有没有晒味，从而对茶叶进行判断。
+            </div>
+
+        </div>
+        <div style="width: 64%;height: 100%;background-color: rgb(152,158,169)">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/一品1.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/一品2.jpg" alt="">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/一品3.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/一品4.jpg" alt="">
+        </div>
+    </div>
+    <br><br><br>
+    <div class="item1">
+        <div style="width: 64%;height: 100%;background-color: rgb(152,158,169)">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/二品11.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/二品22.jpg" alt="">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/二品33.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/二品44.jpg" alt="">
+        </div>
+        <div style="width: 36%;height: 100%;padding-left: 4%;">
+            <div class="maxboxtop2">
+                <div class="shuright2">一杯好茶</div>
+                <div class="shulie">二品滋味</div>
+
+            </div>
+            <div style="padding: 3px; width:100%;height: 50%;font-size: 1vw;color: #dedede;background-color: rgb(152,158,169)">
+
+                <span style="font-size: 1.5vw;color: #de2d0e;">品滋味：</span>用舌头感受茶叶味道，也就是吃茶叶，如果味道苦涩淡薄， 如有怪味，那茶叶定不是好茶。
+            </div>
+
+        </div>
+
+    </div>
+    <br><br><br>
+    <div class="item1">
+
+        <div style="width: 36%;height: 100%;">
+            <div class="maxboxtop">
+                <div class="shulie">三品韵味</div>
+                <div class="shuright">一杯好茶</div>
+            </div>
+            <div style="padding: 3px; width:90%;height: 50%;font-size: 1vw;color:#dedede;background-color: rgb(152,158,169)">
+
+                <span style="font-size: 1.5vw;color: #de2d0e;">品韵味：</span>要长时间慢慢细嚼慢咽感受茶汤咽下后流过喉咙时，是刺激 还是滑爽，判断出茶叶的好坏。
+            </div>
+
+        </div>
+        <div style="width: 64%;height: 100%;background-color: rgb(152,158,169)">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/三品11.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 4%" src="image/三品/三品22.jpg" alt="">
+            <img style="width: 48%;margin-left: 1%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/三品33.jpg" alt="">
+            <img style="width: 48%;margin-left: 2%;float: left;height: 43%;margin-top: 2%;margin-bottom: 2%" src="image/三品/三品44.jpg" alt="">
+        </div>
+    </div>
+    <br>
+
+
+
+    <br>
+    <br><br><br>
+    <div class="footer">
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="index.html">首页</a></button>
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="./3.html">茶文化</a></button>
+
+        <div style="border: 2px solid #000; background-color:#d5d6c4 !important;padding: 10px;" class="dropup">
+            <button style="font-size: 16px" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                品茶
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="三品.html">三品</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="三看.html">三看</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="三闻.html">三闻</a></li>
+                <li role="separator" class="divider"></li>
+
+            </ul>
+        </div>
+        <button style="background-color:#d5d6c4 !important;padding: 10px;"><a href="javascript:history.back(-1)">返回</a></button>
+    </div>
+</div>
+</body>
+
+</html>
